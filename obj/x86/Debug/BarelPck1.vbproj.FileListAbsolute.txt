@@ -1,0 +1,14 @@
+C:\Users\Usuario\documents\visual studio 2010\Projects\BarelPck1\BarelPck1\bin\Debug\BarelPck1.exe.config
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\bin\Debug\dbBarelPack.sdf
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\bin\Debug\BarelPck1.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\bin\Debug\BarelPck1.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\bin\Debug\BarelPck1.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.vbproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.exe
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.xml
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.pdb
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.BarelPackPrincipal.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.Clientes.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.editarCliente.resources
+C:\Users\Usuario\Documents\Visual Studio 2010\Projects\BarelPck1\BarelPck1\obj\x86\Debug\BarelPck1.proveedores.resources
