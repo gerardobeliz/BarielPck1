@@ -64,6 +64,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
@@ -102,15 +103,33 @@
     <Compile Include="Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="consultar venta.Designer.vb">
+      <DependentUpon>consultar venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="consultar venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dbBarelPackDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dbBarelPackDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="editarCliente.Designer.vb">
-      <DependentUpon>editarCliente.vb</DependentUpon>
+    <Compile Include="eliminar producto.Designer.vb">
+      <DependentUpon>eliminar producto.vb</DependentUpon>
     </Compile>
-    <Compile Include="editarCliente.vb">
+    <Compile Include="eliminar producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="facturacion.Designer.vb">
+      <DependentUpon>facturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="facturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificar producto.Designer.vb">
+      <DependentUpon>modificar producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modificar producto.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -128,6 +147,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="producto.Designer.vb">
+      <DependentUpon>producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="proveedores.Designer.vb">
       <DependentUpon>proveedores.vb</DependentUpon>
     </Compile>
@@ -142,14 +167,26 @@
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="editarCliente.resx">
-      <DependentUpon>editarCliente.vb</DependentUpon>
+    <EmbeddedResource Include="consultar venta.resx">
+      <DependentUpon>consultar venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminar producto.resx">
+      <DependentUpon>eliminar producto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="facturacion.resx">
+      <DependentUpon>facturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificar producto.resx">
+      <DependentUpon>modificar producto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="producto.resx">
+      <DependentUpon>producto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="proveedores.resx">
       <DependentUpon>proveedores.vb</DependentUpon>
@@ -209,6 +246,8 @@
     <Content Include="dbBarelPack.sdf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="img\1000_F_896925343_QkE7HXMMNpIFkdTmE5SmZZeUXLIOhGKd.jpg" />
+    <None Include="img\logo.jpeg" />
     <None Include="img\atras.jpg" />
     <None Include="img\png-clipart-computer-icons-floppy-disk-save-button-miscellaneous-blue.png" />
     <None Include="img\eliminar-icono-boton-forma-cuadrada-redonda_300191-523.jpg" />
